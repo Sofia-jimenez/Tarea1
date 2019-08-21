@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Galletas {
-    public String sabor;
-    public int cantidad;
-    public String nombre;
+    private String sabor;
+    private int cantidad;
+    private String nombre;
     
     
     public Galletas()
@@ -26,5 +26,29 @@ public class Galletas {
         this.cantidad=cantidad;
         this.nombre=nombre;
         this.sabor=sabor;
+    }
+    public String getSabor ()
+    {
+        return this.sabor;
+    }
+    public int getCantidad ()
+    {
+        return this.cantidad;
+    }
+    public String getNombre()
+    {
+        return this.nombre;
+    }
+    public void setSabor (String sabor)
+    {
+        this.sabor=sabor;
+    }
+    public void setCantidad (int cantidad)
+    {
+        this.cantidad=cantidad;
+    }
+    public void setNombre (String nombre)
+    {
+        this.nombre=nombre;
     }
 }

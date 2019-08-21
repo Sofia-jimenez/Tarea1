@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Platos {
-    public String forma;
-    public double medidas;
-    public String tamano;
+    private String forma;
+    private double medidas;
+    private String tamano;
     
     
     public Platos()
@@ -27,7 +27,30 @@ public class Platos {
         this.medidas=medidas;
         this.forma=forma;
     }
-   
+   public String getForma()
+   {
+       return this.forma;
+   }
+   public double getMedidas()
+   {
+       return this.medidas;
+   }
+   public String getTamano()
+   {
+       return this.tamano;
+   }
+   public void setForma(String forma)
+   {
+       this.forma=forma;
+   }
+   public void setMedidas( double medidas)
+   {
+       this.medidas=medidas;
+   }
+   public void setTamano(String tamano)
+   {
+       this.tamano=tamano;
+   }
 
     
 }

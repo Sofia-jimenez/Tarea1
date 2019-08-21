@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Libretas {
-    public String marca;
-    public int cantidad;
-    public double precio;
+    private String marca;
+    private int cantidad;
+    private double precio;
     
     public Libretas()
     {
@@ -26,6 +26,30 @@ public class Libretas {
     {
         this.cantidad=cantidad;
         this.marca=marca;
+        this.precio=precio;
+    }
+    public String getMarca ()
+    {
+        return this.marca;
+    }
+    public int getCantidad ()
+    {
+        return this.cantidad;
+    }
+    public double getPrecio ()
+    {
+        return this.precio;
+    }
+    public void setMarca (String marca)
+    {
+        this.marca=marca;
+    }
+    public void setCantidad (int cantidad)
+    {
+        this.cantidad=cantidad;
+    }
+    public void setPrecio (double precio)
+    {
         this.precio=precio;
     }
 }

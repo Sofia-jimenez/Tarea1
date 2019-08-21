@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Basquetbol {
-    public String nombre;
-    public double duracion;
-    public int jugadores;
+    private String nombre;
+    private double duracion;
+    private int jugadores;
     
     
     
@@ -29,6 +29,31 @@ public class Basquetbol {
         this.jugadores=jugadores;
         this.nombre=nombre;
         
+    }
+    public String getNombre()
+    {
+        return this.nombre;
+    }
+    public double getDuracion()
+    {
+        return this.duracion;
+        
+    }
+    public int getJugadores()
+    {
+        return this.jugadores;
+    }
+    public void setNombre(String nombre )
+    {
+        this.nombre=nombre;
+    }
+    public void setDuracion(double duracion)
+    {
+        this.duracion=duracion;
+    }
+    public void setJugadores(int jugadores)
+    {
+        this.jugadores=jugadores;
     }
     
 }

@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Dibujos {
-    public String tamano;
-    public String colores;
-    public int numero;
+    private String tamano;
+    private String colores;
+    private int numero;
     
     
     public Dibujos()
@@ -27,5 +27,31 @@ public class Dibujos {
          this.tamano=tamano;
          this.numero=numero;
          this.colores=colores;
+    }
+    public String getTamano ()
+    {
+        return this.tamano;
+        
+
+}
+    public String getColores ()
+    {
+        return this.colores;
+    }
+    public int getNumero ()
+    {
+        return this.numero;
+    }
+    public void setTamano (String tamano)
+    {
+        this.tamano=tamano;
+    }
+    public void setColores (String colores)
+    {
+        this.colores=colores;
+    }
+    public void setNumero (int numero)
+    {
+        this.numero=numero;
     }
 }

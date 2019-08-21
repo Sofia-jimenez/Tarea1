@@ -28,5 +28,29 @@ public class Ropa {
         this.precio=precio;
         
     }
+    public String getTipo ()
+    {
+        return this.tipo;
+    }
+    public double getPrecio ()
+    {
+        return this.precio;
+    }
+    public String getTela ()
+    {
+        return this.tela;
+    }
+    public void setTipo (String tipo)
+    {
+        this.tipo=tipo;
+    }
+    public void setPrecio (double precio)
+    {
+        this.precio=precio;
+    }
+    public void setTela (String tela)
+    {
+        this.tela=tela;
+    }
     
 }

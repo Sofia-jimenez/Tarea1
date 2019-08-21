@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Audifonos {
-     public  String marca;
-    public double precio;
-    public String calidad;
+     private  String marca;
+    private double precio;
+    private String calidad;
      
     public Audifonos()
     {
@@ -26,5 +26,30 @@ public class Audifonos {
         this.marca=marca;
         this.precio=precio;
     }
+    public String getMarca()
+    {
+        return this.marca;
+    }
+    public double getPrecio()
+    {
+        return this.precio;
+    }
+    public String getCalidad()
+    {
+        return this.calidad;
+    }
+    public void setMarca(String marca)
+    {
+        this.marca=marca;
+    }
+    public void setPrecio(double precio)
+    {
+        this.precio=precio;
+    }
+    public void setCalidad(String calidad)
+    {
+        this.calidad=calidad;
+    }
+    
     
 }

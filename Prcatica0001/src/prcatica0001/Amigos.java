@@ -28,5 +28,29 @@ public class Amigos {
         this.valor=valor;
         this.cantidad=cantidad;
     }    
-    
+    public String getTipos()
+    {
+        return this.tipos;
+    }
+    public int getValor()
+    {
+        return this.valor;
+    }
+    public int getCantidad()
+    {
+        return this.cantidad;
+    }
+    public void setTipos(String tipos)
+    {
+        this.tipos=tipos;
+    }
+    public void setValor(int valor)
+    {
+        this.valor=valor;
+    }
+    public void setCtantidad(int cantidad)
+    {
+        this.cantidad=cantidad;
+    }
+
 }

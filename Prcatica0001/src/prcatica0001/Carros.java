@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Carros {
-    public String marca;
-    public double precio;
-    public String color;
+    private String marca;
+    private double precio;
+    private String color;
     
     
     public Carros()
@@ -28,4 +28,29 @@ public class Carros {
         this.precio=precio;
         this.color=color;
     }
+    public String getMarca()
+    {
+        return this.marca;
+    }
+    public double getPrecio()
+    {
+        return this.precio;
+    }
+    public String getColor()
+    {
+        return this.color;
+    }
+    public void setMarca(String marca)
+    {
+        this.marca=marca;
+    }
+    public void setPrecio(double precio)
+    {
+        this.precio=precio;
+    }
+    public void setColor(String color)
+    {
+        this.color=color;
+    }
+    
 }

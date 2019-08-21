@@ -22,38 +22,29 @@ public class Prcatica0001 {
         pan.nombre="jordan";
         pan.raza= "gran danes";
         
-        Gato cacerola=new Gato("kity", 10, "gris");
-        cacerola.nombre="goku";
-        cacerola.edad=15;
-        cacerola.color="negro";
         
-        Utensilio cucha=new Utensilio("tenedor","mediano","metal");
-        cucha.tipo="tenedor";
-        cucha.tamano="grande";
-        cucha.material="madera";
+        Gato cacerola=new Gato("kity", 10, "gris");
+       cacerola.setNombre("hola");
+      
+        System.out.println(cacerola.getNombre());
+        cacerola.setColor("rosa");
+         System.out.println(cacerola.getColor());
+        Utensilio ja=new Utensilio("tenedor","mediano","metal");
+       
         
         Platos redo=new Platos ("redonda",10,"mediano");
-        redo.forma="grande";
-        redo.medidas=20;
-        redo.tamano="grande";
+        
         
         Musica pop=new Musica ("pop","caso perdido",3.3 );
-        pop.duracion=4;
-        pop.genero="banda";
-        pop.nombre="mi razon de ser";
-        
+       
         
         
         Dibujos bonis= new Dibujos("chico","blanco y negro",3);
-        bonis.colores="brillantes";
-        bonis.numero=10;
-        bonis.tamano="grande";
+        
         
         
        Carros ford=new Carros("ford",20000,"azul");
-       ford.color="rojo";
-       ford.marca="nisan";
-       ford.precio=25000;
+       
        
        
        Ropa aeropostale=new Ropa("sudadera",500 , "algodon");

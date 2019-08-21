@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Alumno {
-    public String nombre;
-    public int edad;
-    public String sexo;
+    private String nombre;
+    private int edad;
+    private String sexo;
     
     
     public Alumno()
@@ -27,6 +27,33 @@ public class Alumno {
         this.nombre=nombre;
         this.sexo=sexo;
     }
+    public String getNombre()
+    {
+        return this.nombre;
+    }
+    public int getEdad()
+    {
+        return this.edad;
+    }
+    public String getSexo()
+    {
+        return this.sexo;
+    }
+    public void setNombre(String nombre)
+    {
+        this.nombre=nombre;
+        
+        
+    }
+    public void setEdad(int edad)
+    {
+        this.edad=edad;
+    }
+    public void setSexo(String sexo)
+    {
+        this.sexo=sexo;
+    }
+            
     
     
 }

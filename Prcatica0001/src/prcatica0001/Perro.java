@@ -4,16 +4,15 @@
  * and open the template in the editor.
  */
 package prcatica0001;
-
 /**
  *
  * @author fofib
  */
 public class Perro {
-    public String nombre;
-    public int edad;
-    public String raza;
-    
+    private String nombre;
+    private int edad;
+    private String raza;
+
     public Perro()
     {
         nombre="desconocido";
@@ -29,5 +28,20 @@ public class Perro {
     
     }
     
-    
+    public String getNombre ()
+    {
+        return this.nombre;
+    }
+    public int getEdad()
+    {
+        return this.edad;
+    }
+    public String getRaza ()
+    {
+        return this.raza;
+    }
+    public void setNombre (String nombre)
+    {
+        this.nombre=nombre;
+    }
 }

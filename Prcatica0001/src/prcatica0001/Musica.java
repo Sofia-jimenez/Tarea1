@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Musica {
-    public String genero;
-    public String nombre;
-    public double duracion;
+    private String genero;
+    private String nombre;
+    private double duracion;
     
     public Musica()
     {
@@ -27,5 +27,29 @@ public class Musica {
         this.genero=genero;
         this.nombre=nombre;
     }
-    
+    public String getGenero ()
+    {
+        return this.genero;
+    }
+   public String getNombre ()
+   {
+       return this.nombre;
+   }
+   public double getDuracion ()
+   {
+       return this.duracion;
+   }
+   public void setGenero (String genero)
+   {
+       this.genero=genero;
+   }
+   public void setNombre (String nombre)
+   {
+       this.nombre=nombre;
+   }
+   public void setDuracion (double duracion)
+   {
+       this.duracion=duracion;
+   }
+   
 }

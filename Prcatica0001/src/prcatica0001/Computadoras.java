@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Computadoras {
-     public String marca;
-    public double capacidad;
-    public double precio;
+     private String marca;
+    private double capacidad;
+    private double precio;
     
     
     
@@ -29,4 +29,28 @@ public class Computadoras {
         this.marca=marca;
         this.precio=precio;
     }
-}
+    public String getMarca()
+    {
+        return this.marca;
+    }
+    public double getCapacidad()
+    {
+        return this.capacidad;
+    }
+    public double getPrecio()
+    {
+        return this.precio;
+    }
+    public void setMarca(String marca)
+    {
+        this.marca=marca;
+    }
+    public void setCapacidad(double capacidad)
+    {
+        this.capacidad=capacidad;
+    }
+    public void setPrecio(double precio)
+    {
+        this.precio=precio;
+    }
+            }

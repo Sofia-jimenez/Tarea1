@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Muñecos {
-      public String nombre;
-    public double precio;
-    public String calidad;
+      private String nombre;
+    private double precio;
+    private String calidad;
     
     
     
@@ -28,5 +28,30 @@ public class Muñecos {
         this.nombre=nombre;
         this.precio=precio;
         
+    }
+    public String getaNombre ()
+    {
+        return this.nombre;
+    }
+    public double getPrecio ()
+
+    {
+        return this.precio;
+    }
+    public String getCalidad ()
+    {
+        return this.calidad;
+    }
+    public void setNombre (String nombre)
+    {
+        this.nombre=nombre;
+    }
+    public void setPrecio (double precio)
+    {
+        this.precio=precio;
+    }
+    public void setCalidad (String calidad)
+    {
+        this.calidad=calidad;
     }
 }

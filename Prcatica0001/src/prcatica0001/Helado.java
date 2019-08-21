@@ -10,9 +10,9 @@ package prcatica0001;
  * @author fofib
  */
 public class Helado {
-    public String sabor;
-    public String tamano;
-    public double cantidad;
+    private String sabor;
+    private String tamano;
+    private double cantidad;
     
     
     public Helado()
@@ -27,4 +27,30 @@ public class Helado {
         this.sabor=sabor;
         this.tamano=tamano;
     }
+    public String getSabor ()
+    {
+        return this.sabor;
+    }
+    public String getTamano ()
+    {
+        return this.tamano;
+    }
+    public double getCantidad ()
+    {
+        return this.cantidad;
+    }
+    public void setSabor (String sabor )
+    {
+        this.sabor=sabor;
+                
+    }
+    public void setTamano (String tamano)
+    {
+        this.tamano=tamano;
+    }
+    public void setCantidad (double cantidad)
+    {
+        this.cantidad=cantidad;
+    }
+    
 }
